@@ -8,6 +8,7 @@ None,Geen
 "Please assign this item to a store view.","Wijs dit item toe aan een winkelaanzicht."
 "You need more permissions to save this item.","U heeft meer bevoegdheden nodig om dit item op te slaan."
 "You need more permissions to delete this item.","U heeft meer bevoegdheden nodig om dit item te verwijderen."
+"You need more permissions to view this item.","U heeft meer rechten nodig om dit item te zien. "
 "You need more permissions to access website ""%1"".","Je hebt meer bevoegdheden nodig voor toegang tot website ""%1""."
 "Role Scopes","Rol scopes"
 Custom,Aangepast
@@ -109,7 +110,9 @@ Configure,Configureren
 "You must buy at least %1 of these per purchase.","Je moet ten minste %1 van dit product aanschaffen per aankoop."
 "Specify the product's options.","Geef de productopties aan."
 "Alert me when this item is available.","Waarschuw me wanneer dit product beschikbaar is."
+"We can't find this customer.","Klant niet gevonden."
 "Shopping cart management is disabled for this customer.","Winkelwagenbeheer uitgeschakeld voor deze klant."
+"We can't find this store.","Winkel niet gevonden."
 Customers,Klanten
 "Shopping Cart",Winkelwagen
 "You do not have access to this.","Je hebt geen toegang hier toe."
@@ -550,6 +553,7 @@ To,Aan
 "Invalid export type supplied for grid export block","Ongeldig export type opgegeven voor export rasterblok"
 Export,Exporteer
 "Please correct the column format and try again.","Corrigeer de kolomindeling en probeer het opnieuw."
+"Please select items.","Selecteer producten."
 Submit,Bevestig
 "Unknown block type","Onbekend bloktype"
 "Please correct the tab configuration and try again. Tab Id should be not empty","Corrigeer het tabblad configuratie en probeer het opnieuw. Tab ID mag niet leeg zijn"
@@ -619,6 +623,7 @@ System,Systeem
 "Last 7 Days","Laatste 7 dagen"
 "Current Month","Huidige maand"
 "Authentication storage is incorrect.","Authenticatie opslag niet correct."
+"Authentication error occurred.","Authenticatiefout opgetreden."
 Order,Bestelling
 "Order #%1","Bestelling #%1"
 "Sorry, you need permissions to view this content.","Helaas, je bent niet gemachtigd om deze inhoud weer te geven."
@@ -716,6 +721,7 @@ Tools,Instellingen
 "Catalog Images Cache","Catalogus afbeeldingen cache"
 "Flush Js/Css","Leeg Js/Css"
 "Flush Static Files","Leeg statische bestanden"
+"Web Setup Wizard","Wizard webinstellingen"
 Currency,Valuta
 Communications,Communicatie
 Advanced,Geavanceerd
@@ -829,6 +835,7 @@ Security,Beveiliging
 "Validate HTTP_VIA","HTTP_VIA valideren"
 "Validate HTTP_X_FORWARDED_FOR","HTTP_X_FORWARDED_FOR valideren"
 "Validate HTTP_USER_AGENT","HTTP_USER_AGENT valideren"
+"Use SID on Storefront","Gebruik SID op storefront"
 "Cache Type","Cache Soort"
 Description,Omschrijving
 Tags,tags
@@ -984,7 +991,6 @@ Footer,onderschrift
 "Save Dynamic Block","Dynamisch Blok Opslaan"
 "Delete Dynamic Block","Dynamisch Blok Verwijderen"
 "New Dynamic Block","Nieuw Dynamisch Blok"
-"Are you sure you want to do this?","Weet u zeker dat u dit wilt doen?"
 Reset,Herstel
 "Dynamic Block Default Content for All Store Views","Dynamisch blok standaard content voor alle winkelaanzichten"
 "Dynamic Block Properties","Eigenschappen van dynamisch blok"
@@ -1022,7 +1028,7 @@ Reset,Herstel
 "Cart price rules allows you to setup promotions for items that are in the shopping cart.","Winkelwagen prijsregels maakt het mogelijk promoties in te stellen voor artikelen die in het winkelwagentje zitten."
 "Add Cart Price Rules","Prijsregels voor winkelwagen toevoegen"
 "Related Catalog Price Rule","Gerelateerde catalogus prijsregel"
-"Catalog price rules allows you to setup promotions for an items in catalog.","Met catalogusprijsregels kunt u promoties instellen voor artikelen in de catalogus."
+"Catalog price rules allows you to setup promotions for an items in catalog.","Met catalogusprijsregels kun je promoties instellen voor items in de catalogus."
 "Add Selected","Geselecteerde toevoegen"
 "Make sure that dynamic blocks rotator does not reference the dynamic block itself.","Zorg ervoor dat dynamische blokken rotator niet verwijst naar het dynamische blok zelf."
 "Cart Price Rule Related","Winkelwagen prijsregel gerelateerd"
@@ -6395,6 +6401,7 @@ Duration:,Duur:
 "Edit Video","Video bewerken"
 "Images and Videos","Afbeeldingen en video's"
 "Product Video",Productvideo
+"YouTube API Key","YouTube API-sleutel"
 "Autostart base video","Start basisvideo automatisch"
 "Show related video","Toon verwante video"
 "Auto restart video","Video automatisch herstarten"
